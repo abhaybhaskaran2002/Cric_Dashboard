@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <title>Cricket Scoreboard</title>
+        <link rel="icon" href="https://img.freepik.com/premium-vector/cricket-player-logo-design-vector-icon-symbol-template-illustration_647432-119.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-wrapper ">
+        <div id="container1">
+            <h2>INDIA</h2><hr>
+            <div id="team-score" class="size"><b>Runs:</b> <span id="runs1">0</span> </div>
+            <div id="team-wickets" class="size"><b>Wickets:</b><span id="wickets1">0</span></div>
+            <div id="over" class="size"><b>Over:</b><span id="overs1">0</span></div>
+            <div>
+                <img src="https://i.pinimg.com/736x/b7/fd/c9/b7fdc9d24f64fe227606eaa98528a245.jpg">
+            </div><hr>
+            <div class="points">
+                <button  onclick="updateScore1(1)">1 Run</button>
+                <button  onclick="updateScore1(2)">2 Run</button>
+                <button  onclick="updateScore1(3)">3 Run</button>
+                <button  onclick="updateScore1(4)">4 Run</button>
+                <button  onclick="updateScore1(6)">6 Run</button>
+                <button  onclick="updateNoBall1()">No ball</button>
+                <button  onclick="updateWide1()">Wide</button>
+                <button  onclick="updateWickets1()">Wicket</button>
+            </div>
+        </div>
+        <div><p>V/S</p></div>
+        <div id="container2">
+            <h2>AUSTRALIA</h2><hr>
+            <div id="team-score" class="size"><b>Runs:</b><span id="runs2">0</span> </div>
+            <div id="team-wickets" class="size"><b>Wickets:</b> <span id="wickets2">0</span> </div>
+            <div id="over" class="size"><b>Over:</b> <span id="overs2">0</span></div>
+            <div>
+                <img src="https://www.pngkey.com/png/detail/533-5334555_cricket-australia-logo-clipart-australia-national-cricket-australia.png">
+            </div><hr>
+            <div class="points">
+                <button  onclick="updateScore2(1)">1 Run</button>
+                <button  onclick="updateScore2(2)">2 Run</button>
+                <button  onclick="updateScore2(3)">3 Run</button>
+                <button  onclick="updateScore2(4)">4 Run</button>
+                <button  onclick="updateScore2(6)">6 Run</button>
+                <button  onclick="updateNoBall2()">No ball</button>
+                <button  onclick="updateWide2()">Wide</button>
+                <button  onclick="updateWickets2()">Wicket</button>
+            </div>
+        </div>
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
